@@ -1,0 +1,24 @@
+# Ignore Python cache & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+
+# Ignore large dataset files
+Data_latih.csv
+Data_cleaned.csv
+
+# Ignore logs & temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
